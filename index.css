@@ -10,7 +10,6 @@ body {
 input, button {
     border: none;
 }
-
  #top2
  {
     grid-column-start: 10;
@@ -20,13 +19,11 @@ input, button {
  {
      grid-column-start: 11;
  }
-
  .navbar p:hover
  {
     background-color: rgb(212, 218, 218);
     cursor: pointer;
  }
-
  .navbar p
  {
     margin-top: 15px;
@@ -40,8 +37,6 @@ input, button {
  {
     cursor: pointer;
  }
- 
-
  p
  {
      width: 80%;
@@ -50,7 +45,6 @@ input, button {
      margin-bottom: 2%;
      font-weight: 600;
  }
-
  .jobsdoorWorks
  {
      display: flex;
@@ -59,36 +53,30 @@ input, button {
      gap: 3%;
      flex-wrap: wrap;
 }
-
  .jobsdoorWorksp2
  {
     display: flex;
      width: 80%;
      margin: auto;  
  }
-
  .jobsdoorWorks .box
  {
     margin: auto;
  }
- 
- .jobsdoorWorks img
+  .jobsdoorWorks img
  {
     margin: auto;
     max-width: 70px;
  }
-
  .explore
  {
      border-bottom: darkgray 1px solid;
  }
-
  .data
  {
      width: 30%;
      margin: auto;
  }
-
  .display ul
  {
      color: gray;
@@ -96,37 +84,28 @@ input, button {
      text-align: left;
      width: 30%;
  }
-
  .top_jobs:hover  .navbar_first_child
 {
   display: block; 
 }
-
-
-
-
 .navbar 
 {
     display: grid;
     grid-template-columns: repeat(11,1fr);
     margin: 0.4%;
 } 
-
 .navbar ::before
 {
     display: grid;
     grid-template-columns: repeat(11,1fr);
     margin: 0.4%;
     position: absolute;
-
 } 
 .navbar>:first-child
 {
    color: #0CAA41;
    grid-column-start: 2;
 }
-
-
 .navbar_first_child
 {
 width:300px;
@@ -138,7 +117,6 @@ position: absolute;
 z-index: 5;
 display:none;
 } 
-
 #login_info
 {
    height: 600px;
@@ -147,8 +125,6 @@ display:none;
    background-size: 100%;
    width: 100%;
 }
-
-
 #login_info div
 {
     color: white;
@@ -171,13 +147,10 @@ display:none;
    font-size: 20px;
    cursor: pointer;
 }
-
 .login_info_in input
 {
       border-radius: 5px;
-   
-}
-
+   }
 .topButton
 {
 border: #1861BF 1px solid;
@@ -207,14 +180,9 @@ padding: 1%;
 {
 width: 100%;
 }
-
-
-
-
 .top_companies:hover  .navbar_first_child 
 {
 display: block; 
-
 }
 .top_salaries:hover  .navbar_first_child 
 {
@@ -224,8 +192,6 @@ display: block;
 {
 display: block; 
 }
-
-
 .left 
 {
     text-align: left;
@@ -234,23 +200,19 @@ display: block;
 {
     text-align: center;
 }
-
 .left:focus 
 {
     outline: 2px solid skyblue;
 }
-
 #continueEmail 
 {
     padding: 8px;
     width: 70% !important;
 }
-
 .continueWithEmail 
 {
     width: max-content;
 }
-
 #fl 
 {
     display: flex;
@@ -259,20 +221,17 @@ display: block;
     height: 100%;
     width: 30px;
 }
-
 #continueEmail
 {
     background-color:#0275d8; 
     color: white; 
     cursor: pointer;
 }
-
 .continueWithEmail
 {
    width: 30%; 
    margin: auto;
 }
-
 .lowerMaincontent
 {
     display: grid;
